@@ -1,29 +1,56 @@
-# 🧠 Mental Health Chatbot
+🧠 Mental Health Chatbot with Emotion Detection
+📌 Project Description
+The Mental Health Chatbot is an AI-based application developed using Python and Natural Language Processing (NLP).
+The chatbot interacts with users through text and detects emotions based on user input.
+It provides supportive and motivational responses to help users manage stress and anxiety.
+This project aims to create a simple, accessible, and user-friendly emotional support system.
 
-## Overview
-The **Mental Health Chatbot** is a web-based application designed to provide users with **emotional support and guidance**. It helps users express their feelings and receive responses aimed at reducing stress, anxiety, or negative emotions.  
+🎯 Features
+Text-based conversation
+Emotion detection using NLP
+Supportive response generation
+Simple and clean interface
+Easy to run locally
 
-> **Note:** This chatbot is **not a substitute for professional medical advice**.
+🛠️ Technologies Used
+Programming Language: Python
+Library: NLTK (Natural Language Toolkit)
+IDE: VS Code / Jupyter Notebook
 
----
+📂 Project Structure
+Mental-Health-Chatbot/
+│
+├── chatbot.py
+├── emotions.py
+├── requirements.txt
+├── README.md
 
-## Features
-- 💬 **User-friendly chat interface** using HTML, CSS, and JavaScript  
-- 🤖 **Interactive chatbot responses** powered by scripts or AI models  
-- 🌱 **Emotion-based suggestions** like breathing exercises, positive affirmations, and resources  
-- 🔒 **Safe and confidential** environment for users to express feelings  
-- 📱 **Responsive design** for desktop and mobile devices  
+⚙️ How to Run the Project
+Install Python (3.x)
+Install required libraries:
+pip install nltk
 
----
+Run the file:
+python chatbot.py
+Start chatting with the bot 😊
 
-## Technologies Used
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend (optional):** Python (Flask) / Node.js  
-- **AI / NLP (optional):** OpenAI GPT API or other ML models for responses  
+🧩 Working Principle
+User enters text input.
+NLP processes the text.
+Emotion is detected using keyword matching.
+Appropriate response is generated.
+Response is displayed to the user.
 
----
+📊 Expected Output
+The chatbot will:
+Identify emotions like happy, sad, stressed, angry.
+Provide motivational and supportive responses.
+Example:
+User: I feel very stressed today.
+Bot: It's okay to feel stressed sometimes. Take a deep breath and try to relax.
 
-## Installation
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Latha16166/mental-health-chatbot.git
+🚀 Future Enhancements
+Improve emotion detection accuracy
+Add GUI interface
+Add database for storing chat history
+Deploy as a web application
